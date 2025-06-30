@@ -1,0 +1,250 @@
+{
+  "project_name": "Enterprise Customer Data Platform",
+  "client_company": "GlobalTech Solutions Inc.",
+  "client_industry": "financial_services",
+  "contact_email": "procurement@globaltech.com",
+  "due_date": "2025-08-15",
+  "project_type": "data_warehouse",
+  "description": "Development of a comprehensive customer data platform to consolidate customer information from multiple sources, provide real-time analytics, and enable personalized customer experiences across all touchpoints.",
+  "budget_range": "$750,000 - $1,200,000",
+  "timeline": "9 months",
+  
+  "client_overview": "GlobalTech Solutions Inc. is a leading financial services company with over 2 million customers across North America. Founded in 1995, we provide banking, investment, and insurance services through digital and traditional channels. Our commitment to innovation and customer experience drives our need for advanced data capabilities.",
+  
+  "project_scope": [
+    "Design and implement a centralized customer data warehouse",
+    "Integrate data from 12+ existing systems including CRM, billing, and transaction systems",
+    "Develop real-time data processing and analytics capabilities",
+    "Create customer 360-degree view dashboard for customer service representatives",
+    "Implement data governance framework and data quality controls",
+    "Build APIs for real-time customer data access",
+    "Develop automated reporting and alerting system",
+    "Ensure compliance with financial industry regulations (SOX, PCI-DSS, GDPR)"
+  ],
+  
+  "deliverables": [
+    "Technical Architecture: Comprehensive system architecture documentation and diagrams",
+    "Data Warehouse: Fully implemented and tested customer data warehouse",
+    "ETL Pipelines: Automated data extraction, transformation, and loading processes",
+    "Analytics Dashboard: Real-time customer analytics and reporting interface",
+    "API Layer: RESTful APIs for customer data access and integration",
+    "Data Governance: Data quality rules, governance policies, and monitoring tools",
+    "Documentation: Technical documentation, user guides, and operational procedures",
+    "Training Materials: Comprehensive training program for administrators and end-users",
+    "Testing Suite: Automated testing framework and test cases",
+    "Deployment Package: Production-ready deployment scripts and procedures"
+  ],
+  
+  "success_criteria": [
+    "Achieve 99.9% data accuracy across all integrated systems",
+    "Reduce customer data retrieval time from 5 minutes to under 10 seconds",
+    "Enable real-time customer insights for 100% of customer-facing staff",
+    "Improve customer service resolution time by 40%",
+    "Establish single source of truth for customer data across the organization",
+    "Achieve full regulatory compliance with automated audit trails",
+    "Enable predictive analytics for customer behavior and risk assessment",
+    "Support business growth with scalable data architecture"
+  ],
+  
+  "functional_requirements": [
+    "Customer data integration from CRM, billing, transaction, and support systems",
+    "Real-time data synchronization with sub-second latency for critical updates",
+    "Customer 360-degree view with complete transaction and interaction history",
+    "Advanced search and filtering capabilities across all customer attributes",
+    "Automated data quality validation and cleansing processes",
+    "Role-based access control with audit logging for all data access",
+    "Customizable dashboard and reporting interface for different user roles",
+    "Automated alert system for data quality issues and system anomalies",
+    "Data export capabilities in multiple formats (CSV, Excel, PDF, API)",
+    "Historical data analysis with trend identification and predictive modeling",
+    "Customer segmentation and profiling capabilities",
+    "Integration with existing business intelligence tools"
+  ],
+  
+  "non_functional_requirements": [
+    "System must support 500+ concurrent users during peak hours",
+    "Response time under 2 seconds for 95% of customer queries",
+    "99.9% system availability with maximum 4 hours monthly downtime",
+    "Horizontal scalability to support 5 million+ customer records",
+    "Data processing capacity of 1 million+ transactions per day",
+    "Recovery Time Objective (RTO) of 4 hours for disaster recovery",
+    "Recovery Point Objective (RPO) of 1 hour for data backup",
+    "Support for mobile and tablet interfaces with responsive design",
+    "Multi-browser compatibility (Chrome, Firefox, Safari, Edge)",
+    "Accessibility compliance with WCAG 2.1 AA standards"
+  ],
+  
+  "technical_requirements": [
+    "Cloud-native architecture preferably on AWS or Azure platform",
+    "Microservices architecture with containerized deployment using Docker/Kubernetes",
+    "Data warehouse solution using modern cloud data warehouse (Snowflake, Redshift, or BigQuery)",
+    "Real-time streaming data processing using Apache Kafka or cloud-native alternatives",
+    "RESTful API design following OpenAPI 3.0 specifications",
+    "Modern web frontend using React, Angular, or Vue.js framework",
+    "Backend services using Java Spring Boot, .NET Core, or Node.js",
+    "Database technologies: PostgreSQL for operational data, cloud data warehouse for analytics",
+    "Caching layer using Redis or similar in-memory data store",
+    "Message queuing system for asynchronous processing",
+    "Monitoring and logging using ELK stack or cloud-native solutions",
+    "Infrastructure as Code using Terraform or CloudFormation"
+  ],
+  
+  "performance_requirements": {
+    "response_time": "Under 2 seconds for 95% of queries",
+    "throughput": "1000+ concurrent users supported",
+    "availability": "99.9% uptime SLA",
+    "scalability": "Support 5 million customer records with linear scaling",
+    "data_latency": "Real-time updates within 5 seconds",
+    "backup_frequency": "Automated daily backups with point-in-time recovery",
+    "disaster_recovery": "RTO 4 hours, RPO 1 hour"
+  },
+  
+  "security_requirements": [
+    "End-to-end encryption using AES-256 for data at rest and TLS 1.3 for data in transit",
+    "Multi-factor authentication (MFA) required for all user accounts",
+    "Role-based access control (RBAC) with principle of least privilege",
+    "Regular security scanning and vulnerability assessments",
+    "Comprehensive audit logging with tamper-proof log storage",
+    "Data masking and anonymization for non-production environments",
+    "Secure API authentication using OAuth 2.0 and JWT tokens",
+    "Network security with VPC, firewalls, and intrusion detection",
+    "Regular penetration testing by certified security professionals",
+    "Employee background checks for all personnel with data access"
+  ],
+  
+  "compliance_requirements": [
+    "Sarbanes-Oxley (SOX) compliance for financial reporting and controls",
+    "Payment Card Industry Data Security Standard (PCI-DSS) Level 1 compliance",
+    "General Data Protection Regulation (GDPR) compliance for EU customers",
+    "California Consumer Privacy Act (CCPA) compliance for California residents",
+    "Financial Industry Regulatory Authority (FINRA) record-keeping requirements",
+    "Bank Secrecy Act (BSA) and Anti-Money Laundering (AML) compliance",
+    "Fair Credit Reporting Act (FCRA) compliance for credit-related data",
+    "Regional data residency requirements for international customers"
+  ],
+  
+  "integration_requirements": [
+    "Salesforce CRM system integration using REST APIs",
+    "Oracle Billing system integration with real-time transaction feeds",
+    "Core banking system integration for account and transaction data",
+    "Customer support system (ServiceNow) integration for case management",
+    "Marketing automation platform (HubSpot) integration for campaign data",
+    "Document management system integration for customer documents",
+    "External credit bureau integration for credit scoring and monitoring",
+    "Fraud detection system integration for risk assessment",
+    "Business intelligence tools integration (Tableau, Power BI)",
+    "Email and SMS notification systems integration",
+    "Identity management system (Active Directory) integration",
+    "Legacy mainframe system integration for historical data"
+  ],
+  
+  "existing_systems": [
+    "Salesforce CRM (Customer relationship management)",
+    "Oracle Billing System (Billing and invoicing)",
+    "Core Banking Platform (Account and transaction processing)",
+    "ServiceNow (Customer support and case management)",
+    "HubSpot (Marketing automation and campaigns)",
+    "SharePoint (Document management)",
+    "Mainframe AS/400 (Legacy transaction systems)",
+    "Active Directory (Identity and access management)",
+    "Tableau (Business intelligence and reporting)",
+    "DocuSign (Digital document signing)",
+    "Zendesk (Customer support ticketing)",
+    "Experian (Credit bureau integration)"
+  ],
+  
+  "constraints": [
+    "Must maintain 24/7 system availability during implementation with zero downtime for critical systems",
+    "Limited budget allocation requiring phased implementation approach",
+    "Regulatory approval process may extend timeline by 4-6 weeks",
+    "Integration with legacy mainframe systems requires specialized expertise",
+    "Data migration must be completed during scheduled maintenance windows only",
+    "All development must follow existing enterprise architecture standards",
+    "Vendor must have existing financial services industry certifications",
+    "Implementation must not disrupt existing customer-facing services",
+    "All data must remain within specified geographic boundaries",
+    "Change management process requires extensive stakeholder approval"
+  ],
+  
+  "assumptions": [
+    "Source system APIs and documentation will be available and accurate",
+    "Business stakeholders will be available for requirements validation within 2 weeks",
+    "Existing infrastructure can support additional data processing loads",
+    "Current data quality issues will be resolved during the cleansing process",
+    "Regulatory requirements will remain stable throughout the project timeline",
+    "Third-party system vendors will provide necessary integration support",
+    "IT operations team will be available for deployment and testing support",
+    "Budget approval for additional infrastructure resources if needed",
+    "Change management and user training will be handled by internal teams",
+    "Disaster recovery and backup procedures will be tested before go-live"
+  ],
+  
+  "stakeholders": [
+    {
+      "name": "Sarah Johnson",
+      "role": "Chief Data Officer",
+      "contact": "sarah.johnson@globaltech.com",
+      "responsibilities": "Project sponsor and strategic oversight"
+    },
+    {
+      "name": "Michael Chen",
+      "role": "IT Director",
+      "contact": "michael.chen@globaltech.com",
+      "responsibilities": "Technical architecture approval and resource allocation"
+    },
+    {
+      "name": "Jennifer Martinez",
+      "role": "Customer Experience Manager",
+      "contact": "jennifer.martinez@globaltech.com",
+      "responsibilities": "Business requirements and user acceptance testing"
+    },
+    {
+      "name": "David Thompson",
+      "role": "Compliance Manager",
+      "contact": "david.thompson@globaltech.com",
+      "responsibilities": "Regulatory compliance and risk management"
+    },
+    {
+      "name": "Lisa Wang",
+      "role": "Data Governance Lead",
+      "contact": "lisa.wang@globaltech.com",
+      "responsibilities": "Data quality standards and governance policies"
+    }
+  ],
+  
+  "risk_factors": [
+    "Data Quality: Poor source data quality may impact project timeline and require additional cleansing efforts",
+    "Integration Complexity: Legacy system integration may prove more complex than anticipated",
+    "Regulatory Changes: New regulations may require scope adjustments during implementation",
+    "Resource Availability: Key business stakeholders may have limited availability for requirements gathering",
+    "Technical Dependencies: Third-party system upgrades may conflict with integration timeline",
+    "Change Management: User adoption may be slower than expected requiring additional training",
+    "Performance Issues: System performance may not meet requirements under full production load",
+    "Security Vulnerabilities: New security threats may require additional security measures"
+  ],
+  
+  "evaluation_criteria": [
+    "Technical expertise in cloud data warehouse solutions and modern data architecture",
+    "Proven experience with financial services data and regulatory compliance requirements",
+    "Demonstrated success with similar scale customer data platform implementations",
+    "Quality of proposed technical architecture and scalability approach",
+    "Team qualifications including relevant certifications and industry experience",
+    "Project management methodology and risk mitigation strategies",
+    "Cost-effectiveness and total cost of ownership over 5 years",
+    "Post-implementation support and maintenance capabilities",
+    "Innovation and use of cutting-edge technologies and best practices",
+    "Client references and case studies from similar financial services projects"
+  ],
+  
+  "timeline_constraints": {
+    "start_date": "2025-09-01",
+    "end_date": "2026-05-31",
+    "critical_milestones": [
+      "Requirements sign-off by 2025-10-15",
+      "Architecture approval by 2025-11-30",
+      "Development completion by 2026-03-31",
+      "Testing completion by 2026-04-30",
+      "Go-live by 2026-05-31"
+    ]
+  }
+}
