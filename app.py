@@ -1,11 +1,14 @@
 import streamlit as st
 import os
+import pysqlite3
+sys.modules['sqlite3'] = pysqlite3
 from src.utils.rfp_runner import RFPRunner
 from datetime import datetime
 import tempfile
 from helpers import convert_md_to_docx
 from dotenv import load_dotenv
 load_dotenv(override=True)
+warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
 st.set_page_config(page_title="AI RFP Generator", page_icon="📄", layout="wide")
 st.title("📄 AI-Powered RFP Generation System")
