@@ -10,3 +10,4 @@ pandas
 numpy
 pysqlite3-binary
 markdown2
+bs4
